@@ -13,6 +13,7 @@
 
     <!-- 宫格组件 -->
     <uni-section title="系统管理" type="line"></uni-section>
+    <!-- <uni-section title="检测" type="square" subTitle="啊啊啊" padding="10px"></uni-section> -->
     <view class="grid-body">
       <uni-grid :column="4" :showBorder="false" @change="changeGrid">
         <uni-grid-item>

@@ -40,7 +40,7 @@
 
 	export default {
 		name: 'UniSection',
-    emits:['click'],
+		emits:['click'],
 		props: {
 			type: {
 				type: String,
