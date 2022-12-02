@@ -1,6 +1,8 @@
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png"></image>
+	  <text>{{a}}</text>
+	  <text>{{b}}</text>
+	  <text>{{c}}</text>
     <view class="text-area">
       <text class="title">Hello RuoYi</text>
     </view>
@@ -9,6 +11,13 @@
 
 <script>
   export default {
+	  data(){
+		  return{
+			  a:"若依",
+			  b:"干干干",
+			  c:"加油！"
+		  }
+	  },
     onLoad: function() {
     }
   }
